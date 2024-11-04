@@ -4,7 +4,8 @@ import Link from "next/link";
 import { lusitana } from './ui/fonts';
 import Image from "next/image";
 
-export default function Page() {
+
+export default function Page() {                                                  
   return (
     <main className="flex min-h-screen flex-col p-6">
       <div className="flex h-20 shrink-0 items-end rounded-lg bg-blue-500 p-4 md:h-52">
@@ -20,7 +21,7 @@ export default function Page() {
             <a href="https://nextjs.org/learn/" className="text-blue-500">
               Next.js Learn Course
             </a>
-            , brought to you by Vercel.
+            , brought to you by Vercel.,,
           </p>
           <Link
             href="/login"
